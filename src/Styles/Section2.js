@@ -66,7 +66,7 @@ export const H4 = styled.h4`
 `;
 export const Input = styled.input`
   display: block;
-  width: 20%;
+  width: 25%;
   height: 37px;
   background: #ffffff;
   border: 1px solid #cccccc;
