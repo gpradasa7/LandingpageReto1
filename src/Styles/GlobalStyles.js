@@ -34,7 +34,7 @@ export const DivStyle = styled.div`
   background: #f0efe9;
   @media screen and (min-width: 0px) and (max-width: 798px) {
     display: inline-block;
-    width: 93%;
+    width: 95%;
     height: max-content;
   }
 `;
