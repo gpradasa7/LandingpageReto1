@@ -4,11 +4,12 @@ import earll from "../assets/earll.png";
 import felicity from "../assets/felicity.png";
 import ludovic from "../assets/ludovic.png";
 import thelma from "../assets/thelma.png";
-import { logoHare } from "../assets/logo_HAREE.png";
-import { logoJOBQO } from "../assets/logo_JOBQO.png";
-import { logoPerman } from "../assets/logo_perman.png";
-import { logoJobona } from "../assets/logo_jobona.png";
-import { logoWorkCtrl } from "../assets/logo_workctrl.png";
+import logoHare from "../assets/logo_HAREE.png";
+import logoJOBQO from "../assets/logo_JOBQO.png";
+import logoPerman from "../assets/logo_perman.png";
+import logoJobona from "../assets/logo_jobona.png";
+import logoWorkCtrl from "../assets/logo_workctrl.png";
+
 export default [
   {
     img: felicity,

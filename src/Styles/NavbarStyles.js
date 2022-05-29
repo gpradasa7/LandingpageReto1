@@ -5,6 +5,7 @@ export const Container = styled.div`
   height: 80px;
   top: 0;
   z-index: 99;
+  
 `;
 
 export const Wrapper = styled.div`
@@ -16,7 +17,6 @@ export const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border: solid 0.5px;
 `;
 
 export const Logo = styled.div`
@@ -55,7 +55,7 @@ export const MenuItemLink = styled.a`
 `;
 
 export const Button = styled.button`
-  display: flex;
+  display: inline-block;
   flex-direction: row;
   justify-content: center;
   background-color: ${props => props.inputColor || "white"};
@@ -67,6 +67,8 @@ export const Button = styled.button`
   font-size: 14px;
   font-family: "Helvetica";
   border-radius: 4px;
+  margin: ${props => props.marginButton || "0"};
+  cursor: pointer;
 
   &:hover {
     background: ${props => props.inputColor || "#24B26B"};

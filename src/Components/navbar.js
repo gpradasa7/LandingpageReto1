@@ -8,12 +8,15 @@ import {
   Logo,
   Button,
 } from "../Styles/NavbarStyles";
+import logo from "../assets/logo.png";
 export default class Navbar extends Component {
   render() {
     return (
       <Container>
         <Wrapper>
-          <Logo>IconLogo(x)</Logo>
+          <Logo>
+            <img src={logo} alt="logo" />
+          </Logo>
           <Menu>
             <MenuItem>
               <MenuItemLink>Job Search</MenuItemLink>

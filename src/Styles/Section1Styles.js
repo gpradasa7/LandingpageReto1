@@ -5,16 +5,17 @@ export const Maincontainer = styled.div`
   max-width: 1160px;
   display: flex;
   justify-content: center;
-  background-color: azure;
+
+  height: auto;
 `;
 
 export const MiniSection1 = styled.div`
   width: 50%;
   max-width: 460px;
   max-height: 560px;
-  background-color: bisque;
   margin: 10% 0 0 1.85%;
   padding-right: 8%;
+  margin-left: 2%;
 `;
 
 export const H1 = styled.h1`
@@ -36,9 +37,8 @@ export const Paragraph = styled.p`
 export const MiniSection2 = styled.div`
   width: 50%;
   max-height: 560px;
-  background-color: bisque;
+
   margin: 5% 0 0 1%;
-  background-color: aquamarine;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

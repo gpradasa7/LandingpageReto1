@@ -25,7 +25,7 @@ export default class Section1 extends Component {
             screening process, will introduce you to your new career
             opportunity.
           </Paragraph>
-          <Button>Try it Free</Button>
+          <Button marginButton="0 2% 0 0">Try it Free</Button>
           <Button>Explore</Button>
         </MiniSection1>
         <MiniSection2>
