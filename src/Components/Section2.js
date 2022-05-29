@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button } from "../Styles/NavbarStyles";
 import location from "../assets/location.png";
 import job from "../assets/job.png";
-import images from "../assets/images";
+import { arr } from "../assets/images";
 import {
   CardSection,
   ContainerSection2,
@@ -21,19 +21,19 @@ export default class Section2 extends Component {
       <ContainerSection2>
         <ItemsSection2>Trusted by the world's leading companies</ItemsSection2>
         <ItemsSection2>
-          <img src={images[6].logo} alt="imagen" />
+          <img src={arr[6].logo} alt="imagen" />
         </ItemsSection2>
         <ItemsSection2>
-          <img src={images[7].logo} alt="imagen" />
+          <img src={arr[7].logo} alt="imagen" />
         </ItemsSection2>
         <ItemsSection2>
-          <img src={images[8].logo} alt="imagen" />
+          <img src={arr[8].logo} alt="imagen" />
         </ItemsSection2>
         <ItemsSection2>
-          <img src={images[9].logo} alt="imagen" />
+          <img src={arr[9].logo} alt="imagen" />
         </ItemsSection2>
         <ItemsSection2>
-          <img src={images[10].logo} alt="imagen" />
+          <img src={arr[10].logo} alt="imagen" />
         </ItemsSection2>
 
         <SearchSection>

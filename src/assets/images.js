@@ -10,7 +10,7 @@ import logoPerman from "../assets/logo_perman.png";
 import logoJobona from "../assets/logo_jobona.png";
 import logoWorkCtrl from "../assets/logo_workctrl.png";
 
-export default [
+export const arr = [
   {
     img: felicity,
     name: "Felicity Belle Amis",

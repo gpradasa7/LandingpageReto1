@@ -12,7 +12,7 @@ import {
   H4,
   ParagraphSect1,
 } from "../Styles/Section1Styles";
-import images from "../assets/images";
+import { arr } from "../assets/images";
 
 export default class Section1 extends Component {
   render() {
@@ -30,44 +30,44 @@ export default class Section1 extends Component {
         </MiniSection1>
         <MiniSection2>
           <Card>
-            <Img src={images[0].img} alt="felicity" />
-            <H4>{images[0].name}</H4>
-            <Span>{images[0].title}</Span>
-            <ParagraphSect1>{images[0].presentation}</ParagraphSect1>
+            <Img src={arr[0].img} alt="felicity" />
+            <H4>{arr[0].name}</H4>
+            <Span>{arr[0].title}</Span>
+            <ParagraphSect1>{arr[0].presentation}</ParagraphSect1>
           </Card>
           <Card>
-            <img src={images[1].img} alt="felicity" />
-            <H4>{images[1].name}</H4>
-            <Span>{images[1].title}</Span>
-            <ParagraphSect1>{images[1].presentation}</ParagraphSect1>
-          </Card>
-          <Card>
-            {" "}
-            <img src={images[2].img} alt="felicity" />
-            <H4>{images[2].name}</H4>
-            <Span>{images[2].title}</Span>
-            <ParagraphSect1>{images[2].presentation}</ParagraphSect1>
+            <img src={arr[1].img} alt="felicity" />
+            <H4>{arr[1].name}</H4>
+            <Span>{arr[1].title}</Span>
+            <ParagraphSect1>{arr[1].presentation}</ParagraphSect1>
           </Card>
           <Card>
             {" "}
-            <img src={images[3].img} alt="felicity" />
-            <H4>{images[3].name}</H4>
-            <Span>{images[3].title}</Span>
-            <ParagraphSect1>{images[3].presentation}</ParagraphSect1>
+            <img src={arr[2].img} alt="felicity" />
+            <H4>{arr[2].name}</H4>
+            <Span>{arr[2].title}</Span>
+            <ParagraphSect1>{arr[2].presentation}</ParagraphSect1>
           </Card>
           <Card>
             {" "}
-            <img src={images[4].img} alt="felicity" />
-            <H4>{images[4].name}</H4>
-            <Span>{images[4].title}</Span>
-            <ParagraphSect1>{images[4].presentation}</ParagraphSect1>
+            <img src={arr[3].img} alt="felicity" />
+            <H4>{arr[3].name}</H4>
+            <Span>{arr[3].title}</Span>
+            <ParagraphSect1>{arr[3].presentation}</ParagraphSect1>
           </Card>
           <Card>
             {" "}
-            <img src={images[5].img} alt="felicity" />
-            <H4>{images[5].name}</H4>
-            <Span>{images[5].title}</Span>
-            <ParagraphSect1>{images[5].presentation}</ParagraphSect1>
+            <img src={arr[4].img} alt="felicity" />
+            <H4>{arr[4].name}</H4>
+            <Span>{arr[4].title}</Span>
+            <ParagraphSect1>{arr[4].presentation}</ParagraphSect1>
+          </Card>
+          <Card>
+            {" "}
+            <img src={arr[5].img} alt="felicity" />
+            <H4>{arr[5].name}</H4>
+            <Span>{arr[5].title}</Span>
+            <ParagraphSect1>{arr[5].presentation}</ParagraphSect1>
           </Card>
         </MiniSection2>
       </Maincontainer>
