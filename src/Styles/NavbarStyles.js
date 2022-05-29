@@ -4,8 +4,12 @@ export const Container = styled.div`
   width: 100%;
   height: 80px;
   top: 0;
-  z-index: 99;
-  
+  display: flex;
+  flex-wrap: wrap;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    display: inline-block;
+    width: 100%;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -17,6 +21,10 @@ export const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    display: inline-block;
+    width: 100%;
+  }
 `;
 
 export const Logo = styled.div`
@@ -33,6 +41,12 @@ export const Menu = styled.ul`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const MenuItem = styled.li`
@@ -43,6 +57,12 @@ export const MenuItem = styled.li`
   align-items: center;
   font-size: 1.2rem;
   font-weight: 400;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const MenuItemLink = styled.a`
@@ -52,6 +72,12 @@ export const MenuItemLink = styled.a`
   font-weight: 400;
   font-size: 16px;
   margin: 0 5px;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    width: 25%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Button = styled.button`
@@ -69,9 +95,16 @@ export const Button = styled.button`
   border-radius: 4px;
   margin: ${props => props.marginButton || "0"};
   cursor: pointer;
-
   &:hover {
     background: ${props => props.inputColor || "#24B26B"};
     color: ${props => props.textColor || "white"};
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;

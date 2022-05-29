@@ -23,11 +23,7 @@ export default class Navbar extends Component {
               <MenuItemLink>About</MenuItemLink>
               <MenuItemLink>Pricing</MenuItemLink>
               <MenuItemLink>Contact</MenuItemLink>
-            </MenuItem>
-            <MenuItem>
               <Button>Log in</Button>
-            </MenuItem>
-            <MenuItem>
               <Button inputColor="#24B26B" textColor="white">
                 Try it Free
               </Button>

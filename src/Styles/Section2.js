@@ -12,16 +12,28 @@ export const ItemsSection2 = styled.div`
   font-size: 16px;
   padding: 10px;
   width: 130px;
+  flex-wrap: wrap;
 `;
 
 export const ContainerSection2 = styled.div`
   width: 100%;
   margin: 2% 0 0;
-  height: auto;
-  display: inline-flexbox;
+  display: flex;
+  justify-content: center;
+
+  height: min-content;
   background: #fafafa;
   justify-content: center;
   flex-wrap: wrap;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+  }
 `;
 
 export const SearchSection = styled.div`
@@ -40,7 +52,7 @@ export const H2 = styled.h2`
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  margin: 0;
+  margin: 2% 0;
 `;
 export const H4 = styled.h4`
   width: 100%;
@@ -71,14 +83,21 @@ export const CardSection = styled.div`
   margin-top: 2%;
   width: 100%;
   justify-content: center;
-
   display: flex;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+  }
 `;
 
 export const MinicardSection = styled.div`
   width: 248px;
-  height: 100px;
-  display: flex;
+  height: min-content;
   flex-wrap: wrap;
   padding: 0.5 1.2%;
   align-items: center;
@@ -92,6 +111,15 @@ export const MinicardSection = styled.div`
   background: #ffffff;
   box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.04);
   border-radius: 8px;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    flex-wrap: wrap;
+    margin: 2%;
+    padding: 4%;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    text-align: center;
+  }
 `;
 export const Img = styled.img`
   margin: 0.5% 2.5%;

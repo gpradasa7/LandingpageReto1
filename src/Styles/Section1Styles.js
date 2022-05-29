@@ -5,17 +5,32 @@ export const Maincontainer = styled.div`
   max-width: 1160px;
   display: flex;
   justify-content: center;
-
-  height: auto;
+  height: max-content;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+  }
 `;
 
 export const MiniSection1 = styled.div`
   width: 50%;
   max-width: 460px;
-  max-height: 560px;
   margin: 10% 0 0 1.85%;
   padding-right: 8%;
   margin-left: 2%;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    flex-wrap: wrap;
+    display: block;
+    text-align: justify;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    height: min-content;
+  }
 `;
 
 export const H1 = styled.h1`
@@ -24,6 +39,14 @@ export const H1 = styled.h1`
   font-weight: 700;
   font-size: 56px;
   text-align: justify;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    flex-wrap: wrap;
+    display: block;
+    text-align: justify;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+  }
 `;
 export const Paragraph = styled.p`
   font-family: "Helvetica";
@@ -36,12 +59,15 @@ export const Paragraph = styled.p`
 
 export const MiniSection2 = styled.div`
   width: 50%;
-  max-height: 560px;
-
   margin: 5% 0 0 1%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const Card = styled.div`
@@ -60,6 +86,9 @@ export const Card = styled.div`
   line-height: 100%;
   display: block;
   text-align: center;
+  @media screen and (min-width: 0px) and (max-width: 798px) {
+    padding: 10px;
+  }
 `;
 
 export const Img = styled.img`
