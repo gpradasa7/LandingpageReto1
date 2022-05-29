@@ -41,6 +41,7 @@ export const Menu = styled.ul`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
   @media screen and (min-width: 0px) and (max-width: 798px) {
     width: 100%;
     display: block;
@@ -57,6 +58,7 @@ export const MenuItem = styled.li`
   align-items: center;
   font-size: 1.2rem;
   font-weight: 400;
+
   @media screen and (min-width: 0px) and (max-width: 798px) {
     width: 100%;
     display: inline-block;
@@ -72,6 +74,10 @@ export const MenuItemLink = styled.a`
   font-weight: 400;
   font-size: 16px;
   margin: 0 5px;
+  &:hover {
+    background-color: #33333350;
+    cursor: pointer;
+  }
   @media screen and (min-width: 0px) and (max-width: 798px) {
     width: 25%;
     display: inline-block;

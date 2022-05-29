@@ -13,7 +13,7 @@ import {
   ItemsSection2,
   MinicardSection,
   SearchSection,
-} from "../Styles/Section2";
+} from "../Styles/Section2Styles";
 
 export default class Section2 extends Component {
   render() {

@@ -26,6 +26,7 @@ export const MiniSection1 = styled.div`
     flex-wrap: wrap;
     display: block;
     text-align: justify;
+    align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 18px;
@@ -78,7 +79,7 @@ export const Card = styled.div`
   background: #ffffff;
   border-radius: 8px;
   background-color: white;
-  box-shadow: (0px 4px 20px rgba(0, 0, 0, 0.2));
+  box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.1);
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
@@ -86,12 +87,20 @@ export const Card = styled.div`
   line-height: 100%;
   display: block;
   text-align: center;
+  &:hover {
+    box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.4);
+    background: #ffffff50;
+    transform: translateY(-7px);
+    transition: ease 0.5s;
+    cursor: pointer;
+  }
   @media screen and (min-width: 0px) and (max-width: 798px) {
     padding: 10px;
   }
 `;
 
 export const Img = styled.img`
+  margin-top: 5%;
   justify-content: center;
 `;
 export const H4 = styled.h4`

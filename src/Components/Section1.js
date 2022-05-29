@@ -36,35 +36,35 @@ export default class Section1 extends Component {
             <ParagraphSect1>{arr[0].presentation}</ParagraphSect1>
           </Card>
           <Card>
-            <img src={arr[1].img} alt="felicity" />
+            <Img src={arr[1].img} alt="felicity" />
             <H4>{arr[1].name}</H4>
             <Span>{arr[1].title}</Span>
             <ParagraphSect1>{arr[1].presentation}</ParagraphSect1>
           </Card>
           <Card>
             {" "}
-            <img src={arr[2].img} alt="felicity" />
+            <Img src={arr[2].img} alt="felicity" />
             <H4>{arr[2].name}</H4>
             <Span>{arr[2].title}</Span>
             <ParagraphSect1>{arr[2].presentation}</ParagraphSect1>
           </Card>
           <Card>
             {" "}
-            <img src={arr[3].img} alt="felicity" />
+            <Img src={arr[3].img} alt="felicity" />
             <H4>{arr[3].name}</H4>
             <Span>{arr[3].title}</Span>
             <ParagraphSect1>{arr[3].presentation}</ParagraphSect1>
           </Card>
           <Card>
             {" "}
-            <img src={arr[4].img} alt="felicity" />
+            <Img src={arr[4].img} alt="felicity" />
             <H4>{arr[4].name}</H4>
             <Span>{arr[4].title}</Span>
             <ParagraphSect1>{arr[4].presentation}</ParagraphSect1>
           </Card>
           <Card>
             {" "}
-            <img src={arr[5].img} alt="felicity" />
+            <Img src={arr[5].img} alt="felicity" />
             <H4>{arr[5].name}</H4>
             <Span>{arr[5].title}</Span>
             <ParagraphSect1>{arr[5].presentation}</ParagraphSect1>

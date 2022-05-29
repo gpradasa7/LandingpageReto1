@@ -13,6 +13,9 @@ export const ItemsSection2 = styled.div`
   padding: 10px;
   width: 130px;
   flex-wrap: wrap;
+  &:hover {
+    background-color: lightgrey;
+  }
 `;
 
 export const ContainerSection2 = styled.div`
@@ -111,6 +114,13 @@ export const MinicardSection = styled.div`
   background: #ffffff;
   box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.04);
   border-radius: 8px;
+  &:hover {
+    box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.4);
+    background: #ffffff50;
+    transform: translateY(-7px);
+    transition: ease 0.5s;
+    cursor: pointer;
+  }
   @media screen and (min-width: 0px) and (max-width: 798px) {
     flex-wrap: wrap;
     margin: 2%;
